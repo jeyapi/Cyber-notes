@@ -1,4 +1,4 @@
-# 🎯 Dashboard - Vue d'ensemble
+# 🎯 Dashboard - Mon Apprentissage Cyber
 
 > **Dernière mise à jour :** `= date(today)`
 
@@ -8,9 +8,22 @@
 
 ```dataview
 TABLE WITHOUT ID
-  length(rows) as "Total"
+  length(rows) as "Total Notes"
 FROM ""
 WHERE file.folder != "_TEMPLATES"
+GROUP BY true
+```
+
+---
+
+## 🎯 CTF & Challenges
+
+### 🏆 RootMe - Progression
+```dataview
+TABLE WITHOUT ID
+  sum(rows.points) as "Points Totaux RootMe"
+FROM "CTF & Writeups"
+WHERE contains(tags, "plateforme/rootme") AND contains(tags, "status/completed")
 GROUP BY true
 ```
 
@@ -18,8 +31,8 @@ GROUP BY true
 ```dataview
 TABLE WITHOUT ID
   plateforme as "Plateforme",
-  length(rows) as "Nombre"
-FROM ""
+  length(rows) as "Complétés"
+FROM "CTF & Writeups"
 WHERE contains(tags, "plateforme/")
 GROUP BY tags[0] as plateforme
 ```
@@ -29,95 +42,136 @@ GROUP BY tags[0] as plateforme
 TABLE WITHOUT ID
   status as "Statut",
   length(rows) as "Nombre"
-FROM ""
+FROM "CTF & Writeups"
 WHERE contains(tags, "status/")
 GROUP BY tags[1] as status
 ```
 
 ---
 
-## 🚀 CTF en Cours
+## 🚀 En Cours Actuellement
 
+### CTF Actifs
 ```dataview
 TABLE 
   difficulty as "Difficulté",
-  ip as "IP",
-  creation_date as "Commencé le"
+  creation_date as "Commencé"
 FROM "CTF & Writeups/CTF en cours"
+WHERE contains(tags, "status/in-progress")
+SORT creation_date DESC
+```
+
+### Projets Actifs
+```dataview
+TABLE 
+  technologies as "Tech",
+  creation_date as "Démarré"
+FROM "Projets"
 WHERE contains(tags, "status/in-progress")
 SORT creation_date DESC
 ```
 
 ---
 
-## ✅ CTF Récemment Terminés
+## ✅ Récemment Terminés
 
+### CTF
 ```dataview
 TABLE 
   difficulty as "Difficulté",
   completion_date as "Terminé le"
-FROM "CTF & Writeups/CTF terminés"
+FROM "CTF & Writeups"
 WHERE contains(tags, "status/completed")
 SORT completion_date DESC
 LIMIT 10
 ```
 
----
-
-## 📚 Apprentissages Récents
-
+### Projets
 ```dataview
 TABLE 
-  creation_date as "Date"
-FROM "Apprentissage & Concepts"
-SORT creation_date DESC
+  completion_date as "Terminé le"
+FROM "Projets"
+WHERE contains(tags, "status/completed")
+SORT completion_date DESC
 LIMIT 5
 ```
 
 ---
 
-## 🛠️ Outils Documentés
+## 📚 Apprentissage
 
+### Derniers Concepts Étudiés
+```dataview
+TABLE 
+  difficulty as "Niveau",
+  creation_date as "Date"
+FROM "Apprentissage & Concepts"
+WHERE file.name != "Suivi Certifications"
+SORT creation_date DESC
+LIMIT 5
+```
+
+### Certifications
+- Voir [[Suivi Certifications]] pour le détail
+
+---
+
+## 🛠️ Ressources
+
+### Outils Documentés
 ```dataview
 TABLE WITHOUT ID
   file.link as "Outil",
-  creation_date as "Ajouté le"
+  creation_date as "Ajouté"
 FROM "Ressources/Outils"
 SORT creation_date DESC
 ```
 
+### Vulnérabilités Documentées
+```dataview
+TABLE WITHOUT ID
+  file.link as "Vulnérabilité",
+  cvss as "CVSS"
+FROM "Ressources/Vulnérabilités"
+SORT cvss DESC
+```
+
 ---
 
-## 🎓 Progression par Difficulté
+## � Objectifs du Mois
+
+- [ ] 20+ challenges RootMe
+- [ ] 5+ rooms TryHackMe
+- [ ] 1 projet perso
+- [ ] 5 nouveaux outils documentés
+
+---
+
+## 📈 Progression par Difficulté
 
 ### Easy
 ```dataview
 LIST
-FROM ""
-WHERE difficulty = "easy" AND contains(tags, "status/completed")
+FROM "CTF & Writeups"
+WHERE difficulty = "easy" OR difficulty = "Très facile" OR difficulty = "Facile"
+AND contains(tags, "status/completed")
+LIMIT 10
 ```
 
 ### Medium
 ```dataview
 LIST
-FROM ""
-WHERE difficulty = "medium" AND contains(tags, "status/completed")
+FROM "CTF & Writeups"
+WHERE difficulty = "medium" OR difficulty = "Moyen"
+AND contains(tags, "status/completed")
+LIMIT 10
 ```
 
 ### Hard
 ```dataview
 LIST
-FROM ""
-WHERE difficulty = "hard" AND contains(tags, "status/completed")
-```
-
----
-
-## 📌 À Réviser
-
-```dataview
-TASK
-FROM ""
-WHERE !completed
+FROM "CTF & Writeups"
+WHERE difficulty = "hard" OR difficulty = "Difficile"
+AND contains(tags, "status/completed")
 LIMIT 10
 ```

@@ -1,12 +1,12 @@
-﻿---
+---
 tags:
   - plateforme/thm
   - status/in-progress
-difficulty: 
-ip: 
-url: 
+difficulty:
+ip:
+url:
 creation_date: <% tp.date.now("YYYY-MM-DD") %>
-completion_date: 
+completion_date:
 ---
 # [[<% tp.file.title %>]]
 

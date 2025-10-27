@@ -1,12 +1,109 @@
-# 🔐 Cyber Notes - Portfolio Cybersécurité
+# 🔐 Cyber Notes
 
-> **Vault Obsidian professionnel** pour documenter mes apprentissages en cybersécurité, writeups CTF et techniques de pentesting.
+> Mes notes de cybersécurité : CTF, projets et certifications
 
 [![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)](https://obsidian.md/)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Profile-red?style=flat&logo=tryhackme)](https://tryhackme.com/)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-Profile-9FEF00?style=flat&logo=hackthebox&logoColor=white)](https://hackthebox.com/)
+[![RootMe](https://img.shields.io/badge/RootMe-Profile-FF6C37?style=flat)](https://www.root-me.org/)
 
-> 🎯 **Recruteurs ?** Consultez [[POUR_RECRUTEURS.md]] | **Débutant ?** Voir [[GUIDE_DEMARRAGE.md]]
+**Quick Start :** [[START.md]] | **Guides :** [[GUIDE_DEMARRAGE]] [[GUIDE_ROOTME]]
+
+---
+
+## 📁 Structure
+
+```
+Cyber-notes/
+├── 📊 Dashboard.md
+├── 📚 Apprentissage & Concepts/
+├── 🎯 CTF & Writeups/
+├── 💻 Projets/
+├── 🛠️ Ressources/
+└── 📝 _TEMPLATES/
+```
+
+---
+
+## 🎯 Templates
+
+- **Challenge CTF** - CTF générique
+- **Challenge RootMe** - RootMe (catégories, points)
+- **Room THM** - TryHackMe
+- **Projet** - Labs et scripts perso
+- **Outil** - Cheatsheets
+- **Vulnérabilité** - CVE/exploits
+- **Concept** - Théorie
+
+---
+
+## 🏷️ Tags
+
+```yaml
+# Plateformes
+plateforme/thm | rootme | ctftime
+
+# Statut
+status/in-progress | completed
+
+# Difficulté
+difficulty/easy | medium | hard
+
+# Catégories RootMe
+categorie/web-serveur | web-client | cracking | crypto | etc.
+```
+
+---
+
+## 📊 Dashboard
+
+Stats auto avec Dataview :
+- Points RootMe
+- CTF par plateforme
+- Projets en cours
+- Progression certifications
+
+---
+
+## 🎓 Workflow
+
+1. **Nouveau challenge** → Template → Documenter en temps réel
+2. **Terminer** → Marquer `completed` + date
+3. **Apprendre** → Créer notes outils/concepts
+4. **Dashboard** → Voir progression
+
+---
+
+## 🎯 Objectifs
+
+### Court terme (1-3 mois)
+- 50+ challenges RootMe
+- 10+ rooms TryHackMe
+- 1-2 projets perso
+
+### Long terme (6-12 mois)
+- Certification (eJPT/OSCP)
+- 100+ challenges
+- Portfolio GitHub
+
+---
+
+## 🔧 Setup
+
+**Plugins requis :**
+- Templater (obligatoire)
+- Dataview (pour Dashboard)
+
+---
+
+## 🔗 Profils
+
+- TryHackMe : [Mon profil]
+- RootMe : [Mon profil]
+- GitHub : [Mon repo]
+
+---
+
+*Guides détaillés : [[GUIDE_DEMARRAGE.md]] | [[GUIDE_ROOTME.md]]*
 
 ---
 
@@ -26,8 +123,8 @@ Cyber-notes/
 │   └── Vulnérabilités/         # Base de CVE et exploits
 ├── 📝 _TEMPLATES/
 │   ├── TPL - Challenge CTF.md      # Template CTF générique
-│   ├── TPL - Machine HTB.md        # Template HackTheBox
-│   ├── TPL - Room THM-HTB.md       # Template TryHackMe
+│   ├── TPL - Challenge RootMe.md   # Template RootMe
+│   ├── TPL - Room THM.md           # Template TryHackMe
 │   ├── TPL - Outil & Commande.md   # Template outils
 │   ├── TPL - Vulnérabilité.md      # Template CVE/vulns
 │   └── TPL - Concept.md            # Template apprentissage
@@ -36,38 +133,43 @@ Cyber-notes/
 
 ---
 
-## 🎯 Méthodologie & Templates
+## 🎯 Templates Disponibles
 
 ### 🏆 Template CTF Challenge
-Documentation complète d'un CTF avec méthodologie professionnelle :
-- Reconnaissance & Énumération (Nmap, Gobuster)
+Documentation complète d'un CTF :
+- Reconnaissance & Énumération
 - Exploitation & Foothold
 - Privilege Escalation
-- Lessons learned & Takeaways
+- Ce que j'ai appris
 
-### 🖥️ Template Machine HTB
-Spécifique aux machines HackTheBox avec :
-- Informations machine (OS, difficulté, points)
-- Flags user & root
-- Writeup structuré
+### 🎯 Template Challenge RootMe
+Pour challenges RootMe :
+- Catégorie (Web, Réseau, Crypto, etc.)
+- Points et difficulté
+- Solution étape par étape
+- Flag et validation
 
 ### 📖 Template Room THM
-Pour les rooms TryHackMe guidées
+Pour rooms TryHackMe guidées
+
+### � Template Projet
+Pour vos projets perso :
+- Description et objectifs
+- Technologies utilisées
+- Étapes de réalisation
+- Résultats et apprentissages
 
 ### 🔧 Template Outil & Commande
-Cheatsheets personnalisées avec :
-- Installation & Configuration
+Cheatsheets perso :
 - Commandes essentielles
-- Exemples pratiques issus de CTF
+- Exemples d'utilisation
+- Tips & tricks
 
 ### 🐛 Template Vulnérabilité
-Documentation de CVE et exploits :
-- CVSS score & impact
-- PoC et exploitation
-- Mitigation
+Documentation de CVE/exploits
 
 ### 📚 Template Concept
-Pour la théorie et les fondamentaux
+Pour la théorie et fondamentaux
 
 ---
 
@@ -75,7 +177,7 @@ Pour la théorie et les fondamentaux
 
 ### Plateformes
 - `plateforme/thm` - TryHackMe
-- `plateforme/htb` - HackTheBox
+- `plateforme/rootme` - RootMe
 - `plateforme/ctftime` - CTFTime
 - `plateforme/vulnhub` - VulnHub
 
@@ -104,16 +206,16 @@ Pour la théorie et les fondamentaux
 
 ---
 
-## 📊 Dashboard & Dataview
+## 📊 Dashboard
 
-Le fichier `Dashboard.md` offre :
-- ✅ Statistiques globales (nombre de CTF, réussite par difficulté)
-- 🎯 CTF en cours avec progression
-- 🏆 Derniers CTF terminés
-- 📈 Graphiques de progression
-- 🛠️ Outils documentés
+Le fichier `Dashboard.md` affiche :
+- 📊 **Statistiques** - Nombre de CTF, points RootMe, etc.
+- 🎯 **En cours** - CTF et projets actifs
+- 🏆 **Terminés** - Derniers challenges complétés
+- � **Apprentissage** - Progression certifications
+- 🛠️ **Ressources** - Outils documentés
 
-**Nécessite le plugin Dataview** pour fonctionner.
+**Nécessite le plugin Dataview**
 
 ---
 
@@ -136,56 +238,61 @@ Le fichier `Dashboard.md` offre :
 
 ---
 
-## 🎓 Workflow Recommandé
+## 🎓 Mon Workflow
 
-### 1. Démarrer un nouveau CTF
-- Utiliser le template approprié (CTF, HTB, THM)
-- Remplir les métadonnées (IP, difficulté, tags)
-- Documenter en temps réel
+### 1️⃣ Démarrer un Challenge
+- Choisir le bon template (RootMe, THM, CTF)
+- Remplir les infos de base (difficulté, tags)
+- Documenter en temps réel pendant la résolution
 
-### 2. Pendant le CTF
-- Noter chaque commande utilisée
-- Capturer les flags et preuves dans `_MEDIA/`
-- Lier les outils et vulnérabilités
+### 2️⃣ Pendant le Challenge
+- Noter TOUTES les commandes testées
+- Capturer les preuves (flags, screenshots)
+- Lier vers mes cheatsheets d'outils
 
-### 3. Après résolution
-- Compléter les "Lessons Learned"
-- Mettre à jour le statut → `completed`
-- Ajouter la completion_date
-- Créer des notes d'outils si nouveaux outils utilisés
+### 3️⃣ Après Validation
+- Compléter "Ce que j'ai appris"
+- Marquer comme `completed`
+- Créer/mettre à jour les notes d'outils utilisés
 
-### 4. Apprentissage continu
-- Créer des notes de concepts pour approfondir
-- Documenter les nouvelles vulnérabilités rencontrées
-- Maintenir les cheatsheets à jour
-
----
-
-## 📈 Pourquoi ce vault est professionnel ?
-
-✅ **Structure claire** - Organisation logique par type de contenu  
-✅ **Méthodologie cohérente** - Templates basés sur PTES/OSSTMM  
-✅ **Traçabilité complète** - Dates, tags, statuts, liens  
-✅ **Automatisation** - Dataview pour statistiques automatiques  
-✅ **Portfolio-ready** - Parfait pour montrer aux recruteurs  
-✅ **Scalable** - Peut contenir des centaines de CTF  
-✅ **Knowledge base** - Liens entre concepts, outils, vulns  
+### 4️⃣ Apprentissage Continu
+- Documenter nouveaux concepts découverts
+- Enrichir mes cheatsheets
+- Faire des liens entre les challenges similaires
 
 ---
 
-## 🚀 Utilisation pour Portfolio
+## 📈 Pourquoi ce vault est génial ?
 
-### Pour les recruteurs
-1. **Montrez le Dashboard** - Statistiques impressionnantes
-2. **Sélectionnez 5-10 meilleurs writeups** - Variés en difficulté
-3. **Exportez en PDF** via Obsidian ou Markdown
-4. **Ajoutez sur GitHub** - Vault complet ou writeups sélectionnés
+✅ **Organisation claire** - Facile de retrouver mes notes  
+✅ **Templates prêts** - Gain de temps énorme  
+✅ **Tout tracé** - Dates, tags, progression visible  
+✅ **Statistiques auto** - Dashboard avec Dataview  
+✅ **Évolutif** - Grandit avec mon apprentissage  
+✅ **Knowledge base** - Liens entre concepts, outils, CTF  
+✅ **Offline** - Mes notes, sur mon PC, pour toujours  
 
-### Bonus points
-- Schémas d'attaque avec Excalidraw
-- Notes propres et bien formatées
-- Cheatsheets d'outils personnalisés
-- Documentation de CVE découvertes
+---
+
+## 🎯 Objectifs d'Apprentissage
+
+### Court Terme (1-3 mois)
+- [ ] 50+ challenges RootMe (toutes catégories)
+- [ ] 10+ rooms TryHackMe
+- [ ] Documenter 20+ outils essentiels
+- [ ] 1-2 projets perso (lab, script, etc.)
+
+### Moyen Terme (3-6 mois)
+- [ ] 100+ challenges RootMe
+- [ ] Path TryHackMe complété
+- [ ] Préparation certification (eJPT/OSCP)
+- [ ] Contribution open-source
+
+### Long Terme (6-12 mois)
+- [ ] Certification obtenue
+- [ ] Portfolio solide (GitHub)
+- [ ] Participation CTF en équipe
+- [ ] Blog ou partage de connaissances
 
 ---
 
@@ -197,14 +304,22 @@ Le fichier `Dashboard.md` offre :
 
 ---
 
-## 📞 Contact & Profils
+## � Mes Profils
 
-- TryHackMe : [Votre profil]
-- HackTheBox : [Votre profil]
-- GitHub : [Votre repo]
-- LinkedIn : [Votre profil]
+- 🎯 TryHackMe : [Mon profil]
+- 🎯 RootMe : [Mon profil]
+- 💻 GitHub : [Mon repo]
+
+---
+
+## 📚 Ressources & Communautés
+
+- Discord TryHackMe
+- Discord RootMe
+- Reddit : r/netsec, r/homelab
+- YouTube : IppSec, John Hammond, LiveOverflow
 
 ---
 
 *Dernière mise à jour : 27 octobre 2025*  
-*Version : 2.0 - Professional Edition*
+*Version : 2.0 - Student Edition*
