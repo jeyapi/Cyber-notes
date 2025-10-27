@@ -1,5 +1,4 @@
-````
----
+﻿---
 tags:
   - outil/
 related_tools: []
@@ -7,32 +6,37 @@ creation_date: <% tp.date.now("YYYY-MM-DD") %>
 ---
 # [[<% tp.file.title %>]]
 
-## 📝 Description
+##  Description
 > **À quoi ça sert ?** 
+> 
 > **Quand l'utiliser ?** 
 
 ---
 
-## 🛠️ Installation & Configuration
+##  Installation & Configuration
 ```bash
-````
+
+```
 
 ---
 
-## ✨ Cheatsheet : Commandes Essentielles
+##  Cheatsheet : Commandes Essentielles
 
-|          |                         |
-| -------- | ----------------------- |
 | Commande | Description de l'action |
+| -------- | ----------------------- |
+|          |                         |
 |          |                         |
 |          |                         |
 
 ---
 
-## 🧠 Exemples d'Utilisation Pratique
+##  Exemples d'Utilisation Pratique
 
-- **Challenge :** [[Nom du CTF]]
-    
-- **Contexte :**
-    
-- **Utilisation :**
+**Challenge :** [[Nom du CTF]]
+
+**Contexte :**
+
+**Utilisation :**
+```bash
+
+```

@@ -1,0 +1,30 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/
+.obsidian/hotkeys.json
+
+# Fichiers sensibles - NE PAS COMMIT
+**/flags.txt
+**/credentials.txt
+**/passwords.txt
+**/*_PRIVATE*
+
+# Fichiers temporaires
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Média volumineux (optionnel - décommenter si nécessaire)
+# _MEDIA/*.mp4
+# _MEDIA/*.avi
+# _MEDIA/*.mov
+
+# Brouillons
+**/DRAFT_*
+**/WIP_*
+
+# Notes personnelles
+**/PERSO_*
