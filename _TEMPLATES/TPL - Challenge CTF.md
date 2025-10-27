@@ -1,38 +1,55 @@
 ---
 
 ---
+````
 ---
 tags:
-  - platform/<% tp.prompt("Platform (thm/rootme/other)","thm") %>
-  - os/<% tp.prompt("OS (linux/windows/other)","linux") %>
+  - plateforme/
+  - os/
   - status/in-progress
-platform: <% tp.prompt("Platform (TryHackMe/RootMe/Autre)","TryHackMe") %>
-type: challenge
-difficulty: <% tp.prompt("Difficulté (easy/medium/hard/expert)","easy") %>
-ip: <% tp.prompt("IP (si applicable)","") %>
-url: <% tp.prompt("URL (si applicable)","") %>
+difficulty: 
+ip: 
+url: 
 creation_date: <% tp.date.now("YYYY-MM-DD") %>
-completion_date:
-time_spent:
-points:
-author: <% tp.user %>
---- 
+completion_date: 
+---
 # [[<% tp.file.title %>]]
 
-> **Résumé (1 phrase)** : <% tp.prompt("Résumé rapide (1 phrase)","") %>
-
----
-
 ## 🎯 Objectifs & Contexte
-- Objectif principal :
-- Contexte / scoring / remarques :
+> 
 
 ---
 
-## 🕵️‍♂️ Phase 1 — Reconnaissance & Énumération
+## 🕵️‍♂️ Phase 1 : Reconnaissance & Énumération
 
-### 🗺️ Nmap — Scan initial
+### 🗺️ Nmap - Scan des Ports
 ```bash
-nmap -sC -sV -oN nmap_initial.txt <% tp.frontmatter.ip %>
-# ou : nmap -p- -T4 <IP>
+nmap -sC -sV -oN nmap_initial.txt <IP>
+````
 
+## **Ports ouverts et Services :**
+
+### 🌐 Énumération Web
+
+codeBash
+
+---
+
+## 💥 Phase 2 : Accès Initial & Exploitation
+
+**Vecteur d'attaque principal :** [[Nom de la Vulnérabilité]]  
+**Outil(s) utilisé(s) :** [[Nom de l'outil]]
+
+---
+
+## 🚀 Phase 3 : Élévation de Privilèges
+
+## **Technique utilisée :**
+
+---
+
+## 💡 Résumé & Leçons Apprises (Takeaways)
+
+1.  
+2.  
+3.
