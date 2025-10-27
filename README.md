@@ -1,1 +1,1 @@
-# Cybers-curit-notes
+# Cyber-notes
