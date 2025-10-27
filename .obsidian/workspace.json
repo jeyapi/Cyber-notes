@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_TEMPLATES/TPL - Room THM-HTB.md",
+                "file": "Apprentissage & Concepts/TryHackMe/Linux fundamental - part 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TPL - Room THM-HTB"
+              "title": "Linux fundamental - part 1"
             }
           }
         ]
@@ -190,9 +190,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b083a92526087c64",
+  "active": "f077c7f0bb8442b6",
   "lastOpenFiles": [
     "_TEMPLATES/TPL - Room THM-HTB.md",
+    "Apprentissage & Concepts/TryHackMe/Linux fundamental - part 1.md",
     "README.md",
     "Nom de la Vulnérabilité.md",
     "Sans titre",
