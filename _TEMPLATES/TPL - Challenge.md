@@ -4,18 +4,14 @@ tags:
   - plateforme/rootme
   - categorie/
   - status/in-progress
-difficulty: 
-points: 
+difficulty:
+points:
 date: <% tp.date.now("YYYY-MM-DD") %>
-completion_date: 
+completion_date:
 ---
 
-> **Index:** [[RootMe]] |
+> **Index:** [[]]|
 
-##  Challenge
-**Catégorie:** 
-**Points:** 
-**Difficulté:** 
 
 ---
 
