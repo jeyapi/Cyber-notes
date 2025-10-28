@@ -25,14 +25,74 @@
             "id": "14671504a1fc161e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vue graphique"
+              "type": "markdown",
+              "state": {
+                "file": "_TEMPLATES/Templates.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Templates"
+            }
+          },
+          {
+            "id": "3ce3172b95545984",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/CTF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CTF"
+            }
+          },
+          {
+            "id": "0c48ae8aec6304b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/En cours/En cours.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "En cours"
+            }
+          },
+          {
+            "id": "42db05b4a844dab8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/En cours/Autres/Autres.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Autres"
+            }
+          },
+          {
+            "id": "0c9a6c884505534a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/En cours/RootMe/Sans titre.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sans titre"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -105,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_TEMPLATES/TPL - Challenge CTF.md",
+                "file": "CTF/En cours/RootMe/Sans titre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour TPL - Challenge CTF"
+              "title": "Rétrolien pour Sans titre"
             }
           },
           {
@@ -124,11 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CTF/En cours/RootMe/Sans titre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants"
+              "title": "Liens sortants de Sans titre"
             }
           },
           {
@@ -152,17 +213,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_TEMPLATES/TPL - Challenge CTF.md",
+                "file": "CTF/En cours/RootMe/Sans titre.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de TPL - Challenge CTF"
+              "title": "Plan de Sans titre"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,42 +243,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "14671504a1fc161e",
+  "active": "384cdc4b9c50807a",
   "lastOpenFiles": [
-    "CTF/Terminés/RootMe/HTML - boutons désactivés.md",
-    "Dashboard.md",
+    "CTF/En cours/Autres/Autres.md",
+    "CTF/En cours/RootMe/Sans titre.md",
+    "CTF/En cours/En cours.md",
+    "CTF/CTF.md",
+    "_TEMPLATES/Templates.md",
     "GUIDE.md",
     "README.md",
+    "Dashboard.md",
+    "TAGS_ET_LIENS.md",
+    "Ressources/_INDEX.md",
+    "Notes/Certifs/_INDEX.md",
+    "Notes/Concepts/_INDEX.md",
+    "Notes/_INDEX.md",
+    "CTF/_INDEX.md",
+    "CTF/En cours/_INDEX.md",
+    "CTF/Terminés/_INDEX.md",
+    "CTF/En cours/Autres/Sans titre.canvas",
+    "CTF/Terminés/Autres/_INDEX.md",
+    "CTF/Terminés/RootMe/_INDEX.md",
+    "CTF/En cours/Autres/_INDEX.md",
+    "CTF/En cours/RootMe/_INDEX.md",
+    "CTF/Terminés/RootMe/HTML - boutons désactivés.md",
+    "Notes/Concepts/Linux fundamental part 1.md",
     "_TEMPLATES/TPL - Challenge.md",
     "_MEDIA/Pasted image 20251028095758.png",
     "_MEDIA/CTF.pdf",
     "🏠 Home.md",
     "🗺️ Structure.md",
     "Notes/📚 Notes.md",
-    "Ressources/📦 Ressources.md",
-    "CTF/📁 CTF.md",
-    "TAGS_ET_LIENS.md",
     "_MEDIA/Pasted image 20251028095635.png",
-    "Ressources/Outils/Linux.md",
     "_MEDIA/Pasted image 20251028094901.png",
     "_MEDIA/Pasted image 20251028095238.png",
     "_MEDIA/Pasted image 20251028094933.png",
-    "Notes/Concepts/Linux fundamental part 1.md",
-    "Excalidraw/Drawing 2025-10-27 23.15.08.excalidraw.md",
     "Excalidraw",
-    "_TEMPLATES/TPL - Outil.md",
-    "_TEMPLATES/TPL - Concept.md",
-    "CTF/En cours/RootMe/Sans titre.md",
-    "_TEMPLATES/TPL - Challenge RootMe.md",
-    "_TEMPLATES/TPL - Challenge CTF.md",
-    "_TEMPLATES/TPL - Outil & Commande.md",
-    "_TEMPLATES/TPL - Room THM-HTB.md",
-    "Apprentissage & Concepts/TryHackMe/Linux fundamental - part 1.md",
-    "CTF & Writeups/CTF en cours/THM - Basic Pentesting.md",
-    "CTF & Writeups/CTF terminés/Sans titre.md",
-    "Nom de la Vulnérabilité.md",
     "Sans titre",
-    "CTF & Writeups/Sans titre.md",
     "_MEDIA",
     "_TEMPLATES",
     "Ressources/Vulnérabilités",

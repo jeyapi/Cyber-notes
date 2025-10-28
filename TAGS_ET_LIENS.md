@@ -212,6 +212,3 @@ Après avoir terminé un challenge :
 5. ✅ Si nouveau concept appris → Créer note de concept
 6. ✅ Si nouvel outil utilisé → Créer doc d'outil
 
----
-
-**Maintenant ta vue graphique sera vivante et connectée !** 🎯
