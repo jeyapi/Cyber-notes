@@ -1,4 +1,4 @@
-﻿---
+---
 tags:
   - apprentissage
   - concept
@@ -39,5 +39,3 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 - 
 
 ---
-
-**Retour au [[Dashboard]]** 
