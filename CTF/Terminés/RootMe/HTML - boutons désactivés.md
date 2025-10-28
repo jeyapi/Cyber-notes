@@ -8,6 +8,7 @@ difficulty: Très facile
 points: "5"
 date: 2025-10-28
 ---
+**Index:** [[RootMe]] 
 ## Ce que j'ai trouvé
 
 ![[Pasted image 20251028094901.png]]

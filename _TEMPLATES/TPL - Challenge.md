@@ -10,7 +10,7 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 completion_date: 
 ---
 
-# <% tp.file.title %>
+> **Index:** [[RootMe]] |
 
 ##  Challenge
 **Catégorie:** 
