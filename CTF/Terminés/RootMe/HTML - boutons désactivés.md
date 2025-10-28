@@ -1,6 +1,6 @@
 ---
 tags:
-difficulty:
+difficulty: Très facile
 points: "5"
 date: 2025-10-28
 ---
@@ -26,12 +26,12 @@ On doit juste enlever les "disabled" pour pouvoir utiliser le bouton et la zone 
 ![[Pasted image 20251028095635.png]]
 ---
 On voit qu'on peut utiliser la zone de texte et le bouton. On essaie d'accéder avec "admin".
+On obtient ceci. 
+![[Pasted image 20251028095758.png]]
 
+On a donc le flag.
 ##  Flag
 ```
+HTMLCantStopYou
 ```
 
----
-
-##  Notes rapides
-- 

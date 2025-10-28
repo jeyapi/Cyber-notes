@@ -1,8 +1,15 @@
----
-tags: [apprentissage]
+﻿---
+tags:
+  - apprentissage
+  - concept
+  - categorie/
+difficulty: 
 date: <% tp.date.now("YYYY-MM-DD") %>
 ---
-## C'est quoi ?
+
+# <% tp.file.title %>
+
+##  C'est quoi ?
 
 
 ---
@@ -17,6 +24,14 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 ```bash
 
 ```
+
+---
+
+##  Liens
+
+**Outils liés:** [[]] [[]]
+
+**Challenges liés:** [[]] [[]]
 
 ---
 

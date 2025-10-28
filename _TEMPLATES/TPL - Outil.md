@@ -1,7 +1,13 @@
----
-tags: [outil]
+﻿---
+tags:
+  - outil
+  - ressource
+  - categorie/
 date: <% tp.date.now("YYYY-MM-DD") %>
 ---
+
+# <% tp.file.title %>
+
 ##  Installation
 ```bash
 
@@ -25,6 +31,14 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 ```bash
 
 ```
+
+---
+
+##  Liens
+
+**Challenges utilisant cet outil:** [[]] [[]]
+
+**Concepts liés:** [[]] [[]]
 
 ---
 

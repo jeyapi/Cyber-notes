@@ -50,4 +50,11 @@ Ressources/
 
 ---
 
-**Ouvre Dashboard.md !** 
+## 📚 Docs
+
+- **GUIDE.md** → Comment utiliser le système
+- **TAGS_ET_LIENS.md** → Système de tags et liens (vue graphique)
+
+---
+
+**Ouvre Dashboard.md !** 💪

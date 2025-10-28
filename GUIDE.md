@@ -23,6 +23,7 @@
    - Déplacer le fichier dans `CTF/Terminés/RootMe/`
    - Changer tag : `status/in-progress` → `status/completed`
    - Ajouter `completion_date: 2025-10-27`
+   - **Ajouter liens** vers outils/concepts utilisés (voir `TAGS_ET_LIENS.md`)
 
 ### Nouveau challenge THM/HTB/autre
 
@@ -112,7 +113,9 @@ Les stats se mettent à jour **automatiquement** quand tu :
 ### Productivité
 ✅ **Dashboard tous les jours** → Pour voir où tu en es  
 ✅ **Objectifs du mois** → Coche-les dans le Dashboard  
-✅ **Concepts après CTF** → Note ce que tu as appris
+✅ **Concepts après CTF** → Note ce que tu as appris  
+✅ **Crée des liens** → `[[Nom]]` pour connecter tes notes (vue graphique)  
+✅ **Tags complets** → Utilise tous les tags (voir `TAGS_ET_LIENS.md`)
 
 ---
 

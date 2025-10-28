@@ -1,16 +1,32 @@
----
+﻿---
 tags:
+  - ctf
   - plateforme/rootme
+  - categorie/
   - status/in-progress
-difficulty:
-points:
+difficulty: 
+points: 
 date: <% tp.date.now("YYYY-MM-DD") %>
+completion_date: 
 ---
-## Ce que j'ai trouvé
+
+# <% tp.file.title %>
+
+##  Challenge
+**Catégorie:** 
+**Points:** 
+**Difficulté:** 
+
+---
+
+##  Ce que j'ai trouvé
 
 ```bash
 # Mes commandes ici
 ```
+
+**Découvertes:**
+- 
 
 ---
 
@@ -22,10 +38,15 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 **Comment:**
 
 
+**Outils utilisés:** [[]] [[]]
+
+**Concepts liés:** [[]] [[]]
+
 ---
 
 ##  Flag
 ```
+
 ```
 
 ---
