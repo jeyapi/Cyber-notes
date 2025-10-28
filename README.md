@@ -52,8 +52,9 @@ Ressources/
 
 ## 📚 Docs
 
-- **GUIDE.md** → Comment utiliser le système
-- **TAGS_ET_LIENS.md** → Système de tags et liens (vue graphique)
+- **Dashboard.md** → Point d'entrée principal (tout-en-un)
+- **GUIDE.md** → Guide d'utilisation complet
+- **TAGS_ET_LIENS.md** → Système de tags et liens
 
 ---
 

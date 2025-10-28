@@ -1,5 +1,9 @@
 ---
 tags:
+  - ctf
+  - plateforme/rootme
+  - status/termine
+  - concept/web-client
 difficulty: Très facile
 points: "5"
 date: 2025-10-28

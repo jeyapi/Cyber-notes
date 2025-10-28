@@ -35,5 +35,9 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 
 ---
 
-##  À retenir
+## 📝 À retenir
 - 
+
+---
+
+**Retour au [[Dashboard]]** 

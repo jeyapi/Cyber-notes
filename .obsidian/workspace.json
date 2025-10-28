@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "819168ff485cb7db",
+        "id": "c29e085cb81dcca0",
         "type": "tabs",
         "children": [
           {
@@ -124,12 +124,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_TEMPLATES/TPL - Challenge CTF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de TPL - Challenge CTF"
+              "title": "Liens sortants"
             }
           },
           {
@@ -167,18 +166,17 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
       "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "bases:Create new base": false,
+      "graph:Ouvrir la vue graphique": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false
@@ -186,24 +184,28 @@
   },
   "active": "14671504a1fc161e",
   "lastOpenFiles": [
-    "Ressources/📦 Ressources.md",
+    "CTF/Terminés/RootMe/HTML - boutons désactivés.md",
+    "Dashboard.md",
+    "GUIDE.md",
+    "README.md",
+    "_TEMPLATES/TPL - Challenge.md",
+    "_MEDIA/Pasted image 20251028095758.png",
+    "_MEDIA/CTF.pdf",
+    "🏠 Home.md",
+    "🗺️ Structure.md",
     "Notes/📚 Notes.md",
+    "Ressources/📦 Ressources.md",
     "CTF/📁 CTF.md",
     "TAGS_ET_LIENS.md",
-    "CTF/Terminés/RootMe/HTML - boutons désactivés.md",
-    "_MEDIA/Pasted image 20251028095758.png",
     "_MEDIA/Pasted image 20251028095635.png",
     "Ressources/Outils/Linux.md",
     "_MEDIA/Pasted image 20251028094901.png",
     "_MEDIA/Pasted image 20251028095238.png",
     "_MEDIA/Pasted image 20251028094933.png",
-    "Dashboard.md",
-    "_MEDIA/CTF.pdf",
     "Notes/Concepts/Linux fundamental part 1.md",
     "Excalidraw/Drawing 2025-10-27 23.15.08.excalidraw.md",
     "Excalidraw",
     "_TEMPLATES/TPL - Outil.md",
-    "_TEMPLATES/TPL - Challenge.md",
     "_TEMPLATES/TPL - Concept.md",
     "CTF/En cours/RootMe/Sans titre.md",
     "_TEMPLATES/TPL - Challenge RootMe.md",
@@ -213,7 +215,6 @@
     "Apprentissage & Concepts/TryHackMe/Linux fundamental - part 1.md",
     "CTF & Writeups/CTF en cours/THM - Basic Pentesting.md",
     "CTF & Writeups/CTF terminés/Sans titre.md",
-    "README.md",
     "Nom de la Vulnérabilité.md",
     "Sans titre",
     "CTF & Writeups/Sans titre.md",
@@ -223,7 +224,6 @@
     "Ressources/Outils",
     "Ressources",
     "Apprentissage & Concepts/Concepts Fondamentaux",
-    "Apprentissage & Concepts/TryHackMe",
-    "Bienvenue.md"
+    "Apprentissage & Concepts/TryHackMe"
   ]
 }
