@@ -1,12 +1,8 @@
 ---
-tags: [outil]
-date: <% tp.date.now("YYYY-MM-DD") %>
+tags:
+  - outil
+date: 2025-10-27
 ---
-##  Installation
-```bash
-
-```
-
 ---
 
 ##  Commandes essentielles
@@ -30,3 +26,4 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 
 ##  Notes
 - 
+Voir [[Linux fundamental part 1]]

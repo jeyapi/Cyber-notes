@@ -20,19 +20,8 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
-          },
-          {
-            "id": "383da5c8d0188eec",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,18 +173,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "383da5c8d0188eec",
+  "active": "c4c090f76150183c",
   "lastOpenFiles": [
+    "_MEDIA/CTF.pdf",
+    "Dashboard.md",
+    "Ressources/Outils/Linux.md",
+    "Notes/Concepts/Linux fundamental part 1.md",
+    "Excalidraw/Drawing 2025-10-27 23.15.08.excalidraw.md",
+    "Excalidraw",
+    "_TEMPLATES/TPL - Outil.md",
+    "_TEMPLATES/TPL - Challenge.md",
+    "_TEMPLATES/TPL - Concept.md",
+    "CTF/En cours/RootMe/Sans titre.md",
     "_TEMPLATES/TPL - Challenge RootMe.md",
     "_TEMPLATES/TPL - Challenge CTF.md",
-    "Sans titre.md",
-    "Dashboard.md",
     "_TEMPLATES/TPL - Outil & Commande.md",
-    "_TEMPLATES/TPL - Concept.md",
     "_TEMPLATES/TPL - Room THM-HTB.md",
     "Apprentissage & Concepts/TryHackMe/Linux fundamental - part 1.md",
     "CTF & Writeups/CTF en cours/THM - Basic Pentesting.md",
-    "Ressources/Outils/Sans titre.md",
     "CTF & Writeups/CTF terminés/Sans titre.md",
     "README.md",
     "Nom de la Vulnérabilité.md",
@@ -208,8 +203,6 @@
     "Ressources",
     "Apprentissage & Concepts/Concepts Fondamentaux",
     "Apprentissage & Concepts/TryHackMe",
-    "Apprentissage & Concepts",
-    "CTF & Writeups/CTF terminés",
     "Bienvenue.md"
   ]
 }

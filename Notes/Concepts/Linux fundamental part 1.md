@@ -1,6 +1,7 @@
 ---
-tags: [apprentissage]
-date: <% tp.date.now("YYYY-MM-DD") %>
+tags:
+  - apprentissage
+date: 2025-10-27
 ---
 ## C'est quoi ?
 
