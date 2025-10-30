@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c29e085cb81dcca0",
+        "id": "d547f48e37394c11",
         "type": "tabs",
         "children": [
           {
-            "id": "c4c090f76150183c",
+            "id": "7f5872e046671731",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vue graphique"
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Certifs/Certifs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Certifs"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Certifs/Certifs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétroliens"
+              "title": "Rétrolien pour Certifs"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Certifs/Certifs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants"
+              "title": "Liens sortants de Certifs"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/Certifs/Certifs.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan"
+              "title": "Plan de Certifs"
             }
           }
         ],
@@ -165,19 +172,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c4c090f76150183c",
+  "active": "7f5872e046671731",
   "lastOpenFiles": [
+    "Notes/Certifs/bon.md",
+    "Notes/Certifs/Certifs.md",
+    "Notes/Concepts/Concepts.md",
     "Ressources/Outils/Outils.md",
     "Ressources/Outils/Linux.md",
     "CTF/Terminés/RootMe/HTML - boutons désactivés.md",
     "Ressources/Cheatsheets/Cheatsheets.md",
-    "Notes/Concepts/Concepts.md",
     "Notes/Notes.md",
     "Notes/Concepts/Linux fundamental part 1.md",
     "_TEMPLATES/TPL - Outil.md",
     "_TEMPLATES/TPL - Concept.md",
     "CTF/En cours/En cours.md",
-    "Notes/Certifs/Certifs.md",
     "CTF/CTF.md",
     "CTF/Terminés/Terminés.md",
     "CTF/Terminés/RootMe/RootMe.md",
