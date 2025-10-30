@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Certifs/Certifs.md",
+                "file": "CTF/Terminés/RootMe/HTML - boutons désactivés.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Certifs"
+              "title": "HTML - boutons désactivés"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Certifs/Certifs.md",
+                "file": "CTF/Terminés/RootMe/HTML - boutons désactivés.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Certifs"
+              "title": "Plan de HTML - boutons désactivés"
             }
           }
         ],
@@ -174,12 +174,12 @@
   },
   "active": "7f5872e046671731",
   "lastOpenFiles": [
-    "Notes/Certifs/bon.md",
+    "CTF/Terminés/RootMe/HTML - boutons désactivés.md",
     "Notes/Certifs/Certifs.md",
+    "Notes/Certifs/bon.md",
     "Notes/Concepts/Concepts.md",
     "Ressources/Outils/Outils.md",
     "Ressources/Outils/Linux.md",
-    "CTF/Terminés/RootMe/HTML - boutons désactivés.md",
     "Ressources/Cheatsheets/Cheatsheets.md",
     "Notes/Notes.md",
     "Notes/Concepts/Linux fundamental part 1.md",
